@@ -30,7 +30,7 @@ public class MobileBrowser {
 			options.setChromedriverExecutable("C:\\Users\\Admin\\Downloads\\chromedriver_win32_101V\\chromedriver.exe");		
 		    options.setCapability("browserName", "Chrome");
 			driver= new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
-		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		}
 	    @Test
 	    public void search() {

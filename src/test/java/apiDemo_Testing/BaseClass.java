@@ -34,7 +34,7 @@ public AndroidDriver driver;
 
 	@AfterMethod
 	public void teardown() {
-		driver.quit();  //close the app
+		//driver.quit();  //close the app
 		
 		service.stop();  //stop the appium server
 	}
